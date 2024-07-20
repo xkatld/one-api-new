@@ -5,6 +5,7 @@
 apt update -y
 apt install wget unzip git -y
 git clone https://github.com/xkatld/one-api-new.git
+cd one-api-new
 unzip one-api.zip
 chmod 777 one-api
 ./one-api --port 3000 --log-dir ./logs
