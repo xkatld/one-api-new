@@ -3,5 +3,10 @@
 环境：Debian12
 ```shell
 apt update -y
-apt install wget unzip -y
+apt install wget unzip git -y
+git clone https://github.com/xkatld/one-api-new.git
+unzip one-api.zip
+chmod 777 one-api
+./one-api --port 3000 --log-dir ./logs
 ```
+
