@@ -10,4 +10,5 @@ unzip one-api.zip
 chmod 777 one-api
 ./one-api --port 3000 --log-dir ./logs
 ```
-
+# 注意事项
+3000是端口 可以修改，默认账号密码也是root和123456，记得修改
