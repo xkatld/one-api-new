@@ -15,20 +15,12 @@ chmod 777 one-api
 3000是端口 可以修改，默认账号密码也是root和123456，记得修改
 
 # Claude
-激活 IAM Service Account Credentials API
+激活 [IAM Service Account Credentials API](https://console.cloud.google.com/apis/library/iamcredentials.googleapis.com?project=chat-408106)
 
-https://console.cloud.google.com/apis/library/iamcredentials.googleapis.com?project=chat-408106
-
-创建 application-default-credentials
-
-https://cloud.google.com/docs/authentication/application-default-credentials
-
-创建 application-default-credentials 的几个步骤
+创建 [application-default-credentials](https://console.cloud.google.com/projectselector2/iam-admin/serviceaccounts?supportedpurview=project)
 
 在 Service Account 页面新建 Service Account
 
 在选择 Role 的时候需要选择 Vertex AI User (使用 Vertex AI 的权限) 和 Service Account Token Creater （生成 Access Token 的权限，用于 REST API 请求）
 
 新建一个 Key
-
-需要激活 IAM Service Account Credentials API
