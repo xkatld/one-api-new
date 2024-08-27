@@ -20,8 +20,13 @@ chmod 777 one-api
 创建 [application-default-credentials](https://console.cloud.google.com/projectselector2/iam-admin/serviceaccounts?supportedpurview=project)
 
 在 Service Account 页面新建 Service Account
+
 ![image](https://github.com/user-attachments/assets/39eebca3-a94c-4959-86ab-902ced1a67e9)
 
-在选择 Role 的时候需要选择 Vertex AI User (使用 Vertex AI 的权限) 和 Service Account Token Creator （生成 Access Token 的权限，用于 REST API 请求）
+在选择 Role 的时候需要选择 Vertex AI User  和 Service Account Token Creator
+
 ![image](https://github.com/user-attachments/assets/1623b07e-5344-4552-9d7b-5e2e509d0893)
 
+生成下载JSON
+
+![image](https://github.com/user-attachments/assets/c024084b-66e3-48e5-9c40-adb9a5cdc786)
